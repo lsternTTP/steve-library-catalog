@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#requestsTitle {
+  position: relative;
+  /* top: 2vh; */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Ubuntu Condensed", sans-serif;
+  font-style: normal;
+  font-size: 2rem;
+  color: #34abeb;
+  height: 7vh;
+  width: 10vw;
+  text-align: center;
+  background-color: rgba(249, 159, 180, 0.8);
+  text-shadow: 2px 2px 2px #000;
+  border: groove 3px gold;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+#all-requests-list {
+  position: relative;
+  top: -310vh;
+  height: 30vh;
+  width: 40vw;
+  left: 52vw;
+  /* border: ridge 4px red; */
+  border-radius: 6px;
+  /* background-color: #ffe15f ; */
+  z-index: 5;
+}
+#book-label {
+  font-family: "Ubuntu Condensed", sans-serif;
+  font-style: normal;
+  font-size: 1.5rem;
+  padding: 2vw;  
+}
